@@ -1,0 +1,38 @@
+.div-1{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+.div-2{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.div-3{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+.more{
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+}
+.more-1{
+    color: hsl(31, 77%, 52%)
+}
+/*movil*/
+@media (width < 375px){
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 80vh 80vh 80vh;
+    }
+
+    .div-1{
+
+    }
+}
